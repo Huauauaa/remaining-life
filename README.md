@@ -1,1 +1,1 @@
-# [remaining-life](https://remaining-life.netlify.app/)
+# Remaining Life
