@@ -1,0 +1,31 @@
+.age-area {
+  display: flex;
+  flex-wrap: wrap;
+  &.year {
+    grid-template-columns: repeat(10, 1fr);
+    .item {
+      border: 1px solid #000;
+      box-sizing: border-box;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-size: 50px;
+      &.past {
+        background-color: #ccc;
+      }
+    }
+  }
+  &.month {
+    grid-template-columns: repeat(50, 1fr);
+    .item {
+      border: 1px solid #000;
+      box-sizing: border-box;
+      height: 20px;
+      width: 20px;
+      &.past {
+        background-color: #ccc;
+      }
+    }
+  }
+}
